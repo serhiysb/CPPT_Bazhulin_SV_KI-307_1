@@ -1,0 +1,7 @@
+Engine refuel: 50.0
+Door of spaceship was closed
+Engine was started
+Spaceship speed set 100
+Spaceship turned right
+Engine was switched off
+Door of spaceship was opened
