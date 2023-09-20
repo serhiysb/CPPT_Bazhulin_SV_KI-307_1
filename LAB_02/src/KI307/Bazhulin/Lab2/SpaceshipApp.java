@@ -23,7 +23,16 @@ public class SpaceshipApp
 	{
 		ControlPanel.Direction direction = null;
 		Spaceship spaceship=new Spaceship();
-		spaceship.RefuelSpaceship(50);
+		
+		Spaceship spaceship1 = new Spaceship(5);
+		Spaceship spaceship2 = new Spaceship(10);
+		Spaceship spaceship3 = new Spaceship(20);
+		Spaceship spaceship4 = new Spaceship(30);
+		Spaceship spaceship5 = new Spaceship(20);
+		f1();
+
+		System.out.print(spaceship.getCountEngineFuel40());
+		/*spaceship.RefuelSpaceship(50);
 		out.print(spaceship.getFuelStatus());
 		
 		spaceship.CloseDoor();
@@ -41,6 +50,11 @@ public class SpaceshipApp
 		
 		spaceship.SwitchOffSapceship();
 		spaceship.OpenDoor();
-		spaceship.dispose();
+		spaceship.dispose();*/
+	}
+	public static void f1() throws FileNotFoundException
+	{
+		Spaceship spaceship5 = new Spaceship(40);
+		
 	}
 }

@@ -176,6 +176,11 @@ public class Spaceship  {
 		return controlPanel.getDirection();
 	}
 	
+	public int getCountEngineFuel40()
+	{
+		return this.engine.getCountWith40();
+	}
+	
 	/**
 	 * Method releases used recourses
 	 */
@@ -191,6 +196,7 @@ public class Spaceship  {
 */
 class Engine
 {
+	private static int countWith40=0;
 	private double fuel;
 	private boolean isStarted;
 	
@@ -212,6 +218,8 @@ class Engine
 	public Engine(double fuel) throws FileNotFoundException
 	{
 		this.fuel = fuel;
+		if(fuel == 40)
+			countWith40++;
 	}
 	
 	/**
@@ -238,6 +246,11 @@ class Engine
 		}
 		else
 			return false;
+	}
+	
+	public int getCountWith40()
+	{
+		return this.countWith40;
 	}
 	
 	/**
