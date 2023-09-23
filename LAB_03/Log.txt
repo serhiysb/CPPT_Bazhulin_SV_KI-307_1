@@ -1,0 +1,9 @@
+Engine of reusable spaceship was refuel: 50.0
+Door of spaceship was closed
+Engine of reusable spaceship was started
+Spaceship speed set 100
+Reusable spaceship is taking off
+Spaceship turned right
+Reusable spaceship is landing
+Engine of reusable spaceship was switched off
+Door of spaceship was opened
