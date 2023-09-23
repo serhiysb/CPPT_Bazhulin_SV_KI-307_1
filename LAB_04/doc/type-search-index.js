@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI307.Bazhulin.Lab4","l":"EquationsApp"}]
