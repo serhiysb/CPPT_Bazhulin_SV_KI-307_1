@@ -1,12 +1,3 @@
-/****************************************************************************
-* Copyright (c) 2013-2023 Lviv Polytechnic National University. All Rights Reserved.
-*
-* This program and the accompanying materials are made available under the terms
-* of the Academic Free License v. 3.0 which accompanies this distribution, and is
-* available at https://opensource.org/license/afl-3-0-php/
-*
-* SPDX-License-Identifier: AFL-3.0
-****************************************************************************/
 package KI307.Bazhulin.Lab4;
 
 import java.util.Scanner;
