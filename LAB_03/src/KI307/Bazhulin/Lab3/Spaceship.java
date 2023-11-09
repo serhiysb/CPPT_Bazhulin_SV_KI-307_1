@@ -6,6 +6,8 @@ package KI307.Bazhulin.Lab3;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.io.RandomAccessFile;
+import java.io.IOException;
 
 /**
  * Class <code>Spaceship</code> implements spaceship
@@ -17,6 +19,7 @@ public abstract class Spaceship {
 	protected Engine engine;
 	private ControlPanel controlPanel;
 	private Door door;
+	private int tmp = 675;
 	protected PrintWriter fout;
 	
 	/**
@@ -162,6 +165,25 @@ public abstract class Spaceship {
 	public ControlPanel.Direction getDirectionSpaceship()
 	{
 		return controlPanel.getDirection();
+	}
+//	private void writeRandomFile() throws IOException
+//	{
+//		
+////		file.writeUTF("Hello Random Access File!");
+//	}
+	
+	@Override
+	public String toString()
+	{
+		try {
+			RandomAccessFile file = new RandomAccessFile("randomFile.txt", "rw");
+			String value = String.valueOf(tmp);
+			file.writeUTF(value);
+			return "Data writed successfuly";
+		}catch(IOException ex)
+		{
+			return ex.getMessage();			
+		}
 	}
 	
 	/**
