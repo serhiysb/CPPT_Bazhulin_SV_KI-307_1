@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"KI307.Bazhulin.Lab6","c":"MainBazhulin","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"KI307.Bazhulin.Lab6","c":"MainBazhulin","l":"MainBazhulin()","url":"%3Cinit%3E()"}]
