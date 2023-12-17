@@ -49,6 +49,23 @@ class MyList<T extends Comparable<T>>
         }
 	}
 	
+	public int findElementsWith3Length()
+	{
+		if (head == null) {
+            return 0;
+        }
+
+        Node<T> current = head;
+        int count = 0;
+        while (current != null) {
+            if (current.data.toString().length() == 3) {
+                count++;
+            }
+            current = current.next;
+        }
+        return count;
+	}
+	
 	//Removing element
 	public void remove(T data)
 	{

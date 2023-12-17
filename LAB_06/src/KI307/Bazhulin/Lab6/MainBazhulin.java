@@ -24,9 +24,12 @@ public class MainBazhulin {
 		list.add("abc");
 		list.add("qwert");
 		list.add("a");
+		list.add("edv");
+		list.add("edv");
 		list.display();
-		System.out.println(list.findMin());
-		list.remove("qwert");
-		list.display();
+//		System.out.println(list.findMin());
+		System.out.println(list.findElementsWith3Length());
+//		list.remove("qwert");
+//		list.display();
 	}
 }

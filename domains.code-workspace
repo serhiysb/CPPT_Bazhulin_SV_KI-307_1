@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "../../../OSPanel/domains"
+    },
+    {
+      "path": "D:/ITstep/HTML"
+    },
+    {
+      "path": "D:/ITstep/NodeJs"
+    },
+    {
+      "path": "D:/ITstep/React"
+    },
+    {
+      "path": "D:/repos/CPPT_LABS"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "NodeJs",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+  }
+}
